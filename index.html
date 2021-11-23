@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<head>
+
+
+<style>
+
+
+.item1 { grid-area: top; }
+.item2 { grid-area: leftpick; }
+.item3 { grid-area: video; }
+.item4 { grid-area: rightpick; }
+.item5 { grid-area: tekst; }
+
+
+
+
+
+    body {
+      background-color:black;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      text-align: center;
+      color:white;
+
+
+
+    }
+
+   .skrift {
+   color: aliceblue;
+
+}
+
+h1 {color: white;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'top top top top top'
+  'leftpick video video video rightpick'
+  'tekst tekst tekst tekst tekst';
+}
+.grid-item {
+  
+  border: 1px solid white;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.Video {
+ 
+  margin: 10px;
+  border: 3px solid white;
+
+}
+
+.Ad {
+
+  margin: 10px;
+  border: 3px solid white;
+}
+
+.Ad2 {
+  margin: 10px;
+  border: 3px solid white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+      </style>
+
+</head>
+
+<body>
+  <ul>
+    <li><a class="active" href="Konspirasjonsteori.html">Home</a></li>
+    <li><a href="Moonlanding.html">Fake moonlanding</a></li>
+    <li><a href="flatearth.html">Flat earth</a></li>
+    <li><a href="#about">Linker</a></li>
+  </ul>
+  
+  <div class="grid-container">
+    <div class="item1"><div class="skrift"><h1>Konspirasjonsteorier </h1></div></div>
+    <div class="item2"><div class="Ad"><img width="500" src=flatjord.jpeg></div>Blabla blalbkfew</div>
+    <div class="item3"><div class="Video"><video width="502" controls><source src="Videokons.mov" type="video/mp4"></video><h1>Informasjon´s Video</h1></div></div>  
+    <div class="item4"><div class="Ad2"><img width="500" src="moon.jpeg"></div>
+  
+    </div>
+
+    <div class="item5">
+      Footer
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+
+
+  
+</div>
+</body>
+</html>
